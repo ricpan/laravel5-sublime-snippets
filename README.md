@@ -6,4 +6,6 @@ I'm planning to include snippets for:
 - Models
 - other repetitive tasks for Laravel5.
 
-Ideas and requests are welcomed.
+Usage:
+- Clone this repo to Sublime Text2/Packages/User
+- Trigger: l5 + TAB
