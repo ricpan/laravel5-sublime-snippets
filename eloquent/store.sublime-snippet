@@ -1,0 +1,12 @@
+<snippet>
+	<content><![CDATA[
+
+		{YourModel}::create($request->all());
+		return redirect()->route('{YourRoute.name}');
+
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	 <tabTrigger>l5-eloquent-store-create</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<!-- <scope>source.python</scope> -->
+</snippet>

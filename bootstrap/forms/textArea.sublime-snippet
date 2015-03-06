@@ -1,0 +1,12 @@
+<snippet>
+	<content><![CDATA[
+<div class="form-group">
+     {!! Form::label('Your Message') !!}
+     {!! Form::textarea('message', null, array('required', 'class'=>'form-control', 'placeholder'=>'Your message')) !!}
+</div>
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	 <tabTrigger>l5-bootstrap-textArea</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<!-- <scope>source.python</scope> -->
+</snippet>
