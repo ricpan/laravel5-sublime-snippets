@@ -1,0 +1,17 @@
+<snippet>
+	<content><![CDATA[
+
+{!! Form::open(['method' => 'DELETE', 'route' => ['Your.Route', \$YourModel->ID]])!!}
+	
+	<div class="form-group">
+		{!! Form::submit('DELETE', ['class' => 'btn btn-danger']) !!}
+	</div>
+
+{!! Form::close() !!}
+
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	 <tabTrigger>l5-delete-form</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<!-- <scope>source.python</scope> -->
+</snippet>
