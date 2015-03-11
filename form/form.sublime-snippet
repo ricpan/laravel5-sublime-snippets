@@ -1,6 +1,6 @@
 <snippet>
 	<content><![CDATA[
-{!! Form::open(array('method' => 'your_route_post_get_etc', 'class' => 'form')) !!}
+{!! Form::open(array('route' => 'your_route_post_get_etc', 'class' => 'form')) !!}
 
 {!! Form::close() !!}
 ]]></content>
