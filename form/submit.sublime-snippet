@@ -1,11 +1,11 @@
 <snippet>
 	<content><![CDATA[
-{!! Form::open(array('route' => 'your_route_post_get_etc', 'class' => 'form')) !!}
-
-{!! Form::close() !!}
+<div class="form-group">
+	{!! Form::submit('Label', ['class' => 'btn btn-primary']) !!}
+</div>
 ]]></content>
 	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
-	 <tabTrigger>l5Form</tabTrigger>
+	 <tabTrigger>l5-form-submit</tabTrigger>
 	<!-- Optional: Set a scope to limit where the snippet will trigger -->
 	<!-- <scope>source.python</scope> -->
 </snippet>
