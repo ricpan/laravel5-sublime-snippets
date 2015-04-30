@@ -1,11 +1,11 @@
 <snippet>
 	<content><![CDATA[
-{!! Form::open(array('route' => 'named.route', 'class' => 'form')) !!}
+{!! Form::model(yourModel, ['route' => ['named.route', objectID], 'method' => 'PATCH']) !!}
 
 {!! Form::close() !!}
 ]]></content>
 	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
-	 <tabTrigger>l5-form</tabTrigger>
+	 <tabTrigger>l5-form-update</tabTrigger>
 	<!-- Optional: Set a scope to limit where the snippet will trigger -->
 	<!-- <scope>source.python</scope> -->
 </snippet>
