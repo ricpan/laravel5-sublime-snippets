@@ -1,14 +1,10 @@
 <snippet>
 	<content><![CDATA[
-
-{!! Form::open(['method' => 'DELETE', 'route' => ['Your.Route', \$YourModel->ID]])!!}
-	
-	<div class="form-group">
-		{!! Form::submit('DELETE', ['class' => 'btn btn-danger']) !!}
-	</div>
-
+{!! Form::model(\$model, ['route' => ['method.destroy', $model->id], 'method' => 'DELETE']) !!}
+<div class="form-group col-md-12">
+	{!! Form::submit('Delete', ['class' => 'btn btn-danger']) !!}
+</div>
 {!! Form::close() !!}
-
 ]]></content>
 	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
 	 <tabTrigger>l5-delete-form</tabTrigger>
